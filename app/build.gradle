@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "android.arnab.qrattendence"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+ext {
+    stringcare_version = '1.2'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //Volley
+    implementation 'com.android.volley:volley:1.1.1'
+
+    //qr code
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+
+    //encrypt-decrypt(StringCare)
+    implementation "com.stringcare:library:$stringcare_version"
+    //encrypy-decrypt(t21-crypter-android)
+    implementation 'com.tempos21.t21crypt:t21_crypter_android:1.0.5'
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.android.support:design:28.0.0'
+
+    //Text animator
+    implementation "com.hanks:htextview-base:0.1.6"
+    implementation "com.hanks:htextview-fade:0.1.6"
+    implementation "com.hanks:htextview-scale:0.1.6"
+    implementation "com.hanks:htextview-fall:0.1.6"
+
+
+}

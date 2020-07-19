@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Smartrist: Attendance</string>
+    <string name="KEY_TOKEN">mykey123</string>
+</resources>
