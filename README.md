@@ -1,5 +1,6 @@
 # Smartrist-Attendence
 Attendence application for Smartrist card
+Teachers/professors can use this app to take attendence of students. Students need to scan their smartrist cards in this app and their attendence will be recorded. This prevents all chances of proxy attendences.
 
 # Screenshots
 
