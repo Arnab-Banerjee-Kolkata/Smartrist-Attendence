@@ -43,3 +43,10 @@ Smartrist-Library:    https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Librar
 Smartrist-Canteen:    https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Canteen <br>
 Smartrist-Backend:    https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Backend <br>
 
+
+# Developers
+
+Arnab Banerjee: https://github.com/Arnab-Banerjee-Kolkata <br>
+Abhijit Dey: https://github.com/bug-exterminator <br>
+Adarsha Shaw: https://github.com/adarshashaw
+
