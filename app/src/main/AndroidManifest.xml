@@ -9,6 +9,7 @@
     <uses-feature android:name="com.android.hardware.Camera.focus" />
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@drawable/attendance_logo"
         android:label="@string/app_name"
